@@ -1,0 +1,63 @@
+.section{
+    position: relative;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    box-sizing: border-box ;
+    background: linear-gradient(180deg, #78a1c5, #ce2c26), url('../images/bg.jpg');
+    background-blend-mode: screen;
+}
+
+.content{
+    max-width: 100%;
+}
+
+.heading{
+    font: size 3rem;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    font-family: cursive;
+} 
+
+.para{
+    font: size 2rem;
+    color: #000;
+    font-weight: 200;
+    font-family: cursive;
+} 
+
+.sign{
+    font: size 3rem;
+    color: #000;
+    font-weight: 300;
+    font-family: cursive;
+}
+.mobimg{
+    position: relative;
+    max-width: 40%;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 480px) {
+
+    .section{
+        padding: 30% 10%;
+        display: block;
+    }
+
+    .para{
+        font: size 2rem;
+    } 
+
+    .mobimg{
+        max-width: 70%;
+    }
+}

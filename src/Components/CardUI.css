@@ -1,0 +1,60 @@
+
+.heading1{
+    display: flex;
+    width: 65vw;
+    font-size: 2rem;
+    font-family: fantasy;
+    font-weight: bold;
+    font-style: oblique;
+    padding-left:45% ;
+}
+
+.container .row{
+    padding: 4rem!important;
+}
+
+.card:hover{
+    background-color: rgb(240, 231, 152);
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+}
+
+.card-body{
+    padding:2rem 0 !important ;
+}
+
+.card-text{
+    font-size:1rem;
+    padding: 0.4rem 1.9rem;
+}
+.card-date{
+    font-size:1.2rem;
+    padding: 0.4rem 1.9rem;
+    color: orangered!important;
+}
+
+.overflow{
+   overflow: hidden; 
+}
+
+.card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    transform:scale(1);
+    transition: transform 0.5s ease;
+}
+
+.card-img-top:hover{
+    transform: scale(1.8);
+}
+@media screen and (max-width:960px){
+    .card-img-top{
+        height: 40vw;
+    }
+}
+@media screen and (max-width:480px){
+    .card-img-top{
+        height: 50vw;
+    }
+}
+

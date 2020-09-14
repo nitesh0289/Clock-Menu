@@ -1,0 +1,21 @@
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.spacer{
+    flex: 20;
+}
+
+li{
+    display: flex;
+    font-size: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
