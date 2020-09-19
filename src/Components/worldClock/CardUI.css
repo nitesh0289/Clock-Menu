@@ -1,16 +1,16 @@
 
 .heading1{
     display: flex;
-    width: 65vw;
+    width: 100vw;
     font-size: 2rem;
     font-family: fantasy;
     font-weight: bold;
     font-style: oblique;
-    padding-left:45% ;
+    padding-left: 42%;
 }
 
 .container .row{
-    padding: 4rem!important;
+    padding-top: 4rem!important;
 }
 
 .card:hover{

@@ -1,0 +1,155 @@
+.heading2 {
+  display: flex;
+  margin: 0 auto;
+  min-width: 100vw;
+  margin-top: 12vh;
+  font-size: 2rem;
+  font-family: fantasy;
+  font-weight: bold;
+  font-style: oblique;
+  justify-content: center;
+  user-select: none;
+  z-index: 99;
+}
+
+.container3 {
+  /* margin: 0 5%; */
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.wave2 {
+  position: absolute;
+  transform: rotateX(-180deg);
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.wave3{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 11;
+}
+
+.screen {
+  display: inline-block;
+  min-height: 400px;
+  min-width: 350px;
+  padding: 50px 15px;
+  box-shadow: 0 5px 25px #0000004a;
+  border-radius: 8px;
+  background: rgb(252, 251, 250);
+  text-align: center;
+  z-index: 100;
+}
+
+.counter {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  line-height: 250px;
+  font-size: 32px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  cursor: pointer;
+  user-select: none;
+}
+
+.counter span {
+  display: inline-block;
+  min-width: 50px;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.thought{
+  font-variant: small-caps;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(243, 124, 55);
+  padding: 20px 0;
+  user-select: none;
+}
+
+.tools {
+  display: flex;
+  margin: 10px -5px 0;
+}
+
+.tools button {
+  flex: 1;
+  margin: 0 5px;
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10%;
+  box-shadow: 0 5px 15px #0000004a;
+  font-weight: bold;
+  color: rgb(51, 50, 51);
+  background: rgb(84, 240, 162);
+  outline: none;
+  cursor: pointer;
+}
+
+.tools button:hover {
+  color: rgb(245, 247, 243);
+  background: rgb(1, 1, 83);
+}
+
+.tools button:active{
+  transform: scale(0.95);
+}
+
+.counter svg{
+  position: absolute;
+  left: 0;
+}
+
+.defaultCircle{
+  opacity: 0.8;
+}
+
+#animateCircle.addAnimation2{
+  stroke-dasharray: 770;
+  stroke-dashoffset: -770;
+}
+
+#animateCircle.addAnimation{
+  stroke-dasharray: 770;
+  stroke-dashoffset: -770;
+  animation: animateCircle 60s linear infinite;
+  animation-play-state: running;
+}
+@keyframes animateCircle{
+  from{
+    stroke-dashoffset: 0;
+  }
+}
+@media screen and (max-width:480px){
+  .screen {
+    min-height: 400px;
+    min-width: 300px;
+    padding: 20px 10px;
+  }
+  .counter {
+    width: 230px;
+    height: 230px;
+    line-height: 200px;
+    font-size: 30px;
+  }
+  .counter span {
+    min-width: 40px;
+    font-size: 1.1em;
+    padding:28px 0 ;
+    padding-left: 8px;
+  }
+}

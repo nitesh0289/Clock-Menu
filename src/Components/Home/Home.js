@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Mbclock from "../images/mobile_clock1.png";
+import Mbclock from "../../images/mobile_clock1.png";
 import "./Home.css";
-import Card from './Home2';
+import Card from "./Home2";
 
 class Home extends Component {
   render() {
@@ -22,15 +22,19 @@ class Home extends Component {
               </i>
             </h3>
           </div>
-          <img src={Mbclock} className="mobimg" />
+          <img
+            src={Mbclock}
+            className="mobimg"
+            style={{ userDrag: "none", userSelect: "none" }}
+          />
           <svg
             className="wave"
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1440 320"
+            viewBox="0 0 1440 260"
           >
             <path
               fill="#000b76"
-              fill-opacity="1"
+              fillOpacity="1"
               d="M0,128L120,144C240,160,480,192,720,181.3C960,171,1200,117,1320,90.7L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
             ></path>
           </svg>

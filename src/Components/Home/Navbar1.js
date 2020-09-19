@@ -57,10 +57,8 @@ class Navbar1 extends Component {
                 <li className="nav-item">Timer</li>
               </Link>
 
-              <Link to="/profile" className="nav-btn text-warning">
-                <a className="btn btn-outline-warning">
-                  <li className="nav-item">About-Me</li>
-                </a>
+              <Link to="/profile" className="btn btn-outline-warning">
+                <li className="nav-item">About-Me</li>
               </Link>
             </ul>
           </div>

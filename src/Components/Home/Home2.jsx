@@ -1,10 +1,10 @@
 import React from "react";
-import WorldMap from "../images/worldmap.jpg";
-import Stopwatch from "../images/stopwatch.jpeg";
-import Timer from "../images/timer.jpeg";
+import WorldMap from "../../images/worldmap.jpg";
+import Stopwatch from "../../images/stopwatch.jpeg";
+import Timer from "../../images/timer.jpeg";
 import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
-import './CardUI.css';
+import '../worldClock/CardUI.css';
 
 const Card = () => {
   return (
