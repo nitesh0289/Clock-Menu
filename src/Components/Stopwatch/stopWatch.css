@@ -69,6 +69,7 @@
   min-width: 50px;
   font-size: 1.1em;
   font-weight: 500;
+  z-index: 10000;
 }
 
 .thought{

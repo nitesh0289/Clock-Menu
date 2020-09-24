@@ -2,11 +2,13 @@ import React from "react";
 import Navbar1 from "./Components/Home/Navbar1";
 import Home from "./Components/Home/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import profile from "./Components/Profile/Profile";
 import worldclock from "./Components/worldClock/Worldclock";
 import stopwatch from "./Components/Stopwatch/Stopwatch";
-import timer from "./Components/Timer/Timer";
+import timer from "./Components/Timer/Timer1";
 import clocksys from "./Components/worldClock/Clocksys";
+import Timer2 from "./Components/Timer/Timer2";
+import Footer from "./Components/Home/Footer";
+import Card from "./Components/Home/Home2";
 
 function App() {
   return (
@@ -18,8 +20,9 @@ function App() {
           <Route path="/worldclock" component={worldclock} />
           <Route path="/stopwatch" component={stopwatch}/>
           <Route path="/timer" component={timer}/>
-          <Route path="/profile" component={profile}/>
+          {/* <Route path="/profile" component={profile}/> */}
           <Route path="/clocksys" component={clocksys}/>
+          <Route path="/Timer2" component={Timer2}/>
         </Switch>
       </Router>
     </div>

@@ -2,12 +2,13 @@ import React, { Component } from "react";
 import Mbclock from "../../images/mobile_clock1.png";
 import "./Home.css";
 import Card from "./Home2";
+import Footer from "./Footer";
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <div className="fluid-container section">
+        <div className="fluid-container section" >
           <div className="content">
             <h2 className="heading">Clock Menu Application</h2>
             <p className="para col-md-8">
@@ -40,6 +41,7 @@ class Home extends Component {
           </svg>
         </div>
         <Card />
+        <Footer />
       </div>
     );
   }

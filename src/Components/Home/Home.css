@@ -23,6 +23,7 @@
   color: rgb(10, 10, 10);
   font-weight: bold;
   font-family: cursive;
+  user-select: none;
 }
 
 .para {

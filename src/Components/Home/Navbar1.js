@@ -10,7 +10,7 @@ const navli = {
   width: "100vw",
   backgroundColor: "rgb(61, 70, 73)",
   overflow: "hidden",
-  zIndex: "1",
+  zIndex: "101",
 };
 const title = {
   fontSize: "140%",
@@ -57,9 +57,9 @@ class Navbar1 extends Component {
                 <li className="nav-item">Timer</li>
               </Link>
 
-              <Link to="/profile" className="btn btn-outline-warning">
+              {/* <Link to="/profile" className="btn btn-outline-warning">
                 <li className="nav-item">About-Me</li>
-              </Link>
+              </Link> */}
             </ul>
           </div>
         </nav>

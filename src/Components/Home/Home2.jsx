@@ -8,12 +8,13 @@ import '../worldClock/CardUI.css';
 
 const Card = () => {
   return (
+    <div>
     <div className="container d-flex justify-content-center mt-5">
       <div className="row">
-        <div className="col-md-6 col-lg-4 mt-5">
+        <div className="col-md-6 col-lg-4">
           <div className="card text-center">
             <div className="overflow">
-              <img src={WorldMap} alt="WorldMap" className="card-img-top" style={{border:'2px solid brown'}}/>
+              <img src={WorldMap} alt="WorldMap" className="card-img-top" />
             </div>
             <div className="card-body text-dark">
               <h4 className="card-title">World-Clock</h4>
@@ -31,10 +32,10 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <div className=" col-md-6 col-lg-4 mt-5">
+        <div className=" col-md-6 col-lg-4 ">
           <div className="card text-center">
             <div className="overflow">
-              <img src={Stopwatch} alt="Stopwatch" className="card-img-top" style={{border:'2px solid brown'}}/>
+              <img src={Stopwatch} alt="Stopwatch" className="card-img-top" />
             </div>
             <div className="card-body text-dark">
               <h4 className="card-title">Stop-Watch</h4>
@@ -52,16 +53,16 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-6 col-lg-4 mt-5">
+        <div className="col-md-6 col-lg-4">
           <div className="card text-center">
             <div className="overflow">
-              <img src={Timer} alt="Timer" className="card-img-top" style={{border:'2px solid brown'}}/>
+              <img src={Timer} alt="Timer" className="card-img-top" />
             </div>
             <div className="card-body text-dark">
               <h4 className="card-title">Timer</h4>
               <p className="card-text text-secondary">
                 Create one or multiple timers and start them in any order. Set
-                an Alert Message.
+                an Alert Message Lovely UI.
               </p>
               <React.Fragment>
                 <Link to="timer">
@@ -74,6 +75,7 @@ const Card = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

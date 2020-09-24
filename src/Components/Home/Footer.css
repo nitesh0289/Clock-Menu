@@ -1,0 +1,32 @@
+.fcontainer{
+    display: flex;
+    width: 100vw;
+    height: 35vh;
+    justify-content: center;
+    background: rgb(48, 49, 49);
+    border-radius: 2px;
+}
+
+.icons{
+    display: flex;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.fcontent{
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    justify-content: center;
+    background: rgb(71, 71, 71);
+    font-size: 1.2em;
+    font-family: fantasy;
+    font-weight: 200;
+    color: rgb(27, 221, 114);
+}

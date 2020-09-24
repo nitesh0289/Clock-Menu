@@ -17,6 +17,7 @@ import thailand from '../../images/thailand.jpeg'
 import kathmandu from '../../images/kathmandu.jpeg'
 import beijing from '../../images/beijing.png'
 import islamabad from '../../images/islamabad.jpeg'
+import Footer from "../Home/Footer";
 
 class Worldclock extends Component {
   constructor(props) {
@@ -36,6 +37,7 @@ class Worldclock extends Component {
     };
     var newdate= new Intl.DateTimeFormat('en-US', formatter).format(this.state.date)
     return (
+      <div>
       <div className="container d-flex justify-content-center ">
         <div className="row">
           <div className='heading1'>
@@ -90,6 +92,8 @@ class Worldclock extends Component {
             <CardUI imgsrc={islamabad} title="Islamabad, Pakistan" date1={newdate}/>
           </div>
         </div>
+      </div>
+      <Footer />
       </div>
     );
   }

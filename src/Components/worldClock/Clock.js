@@ -29,7 +29,7 @@ class Clock extends Component {
     var hh = this.state.time.getUTCHours() + this.props.hr;
     var mm = this.state.time.getUTCMinutes() + this.props.mn;
     var ss = this.state.time.getUTCSeconds();
-    console.log("hours:",hh, "minutes:", mm, "seconds:", ss);
+    //console.log("hours:",hh, "minutes:", mm, "seconds:", ss);
     var mr = hh >= 12 ? "PM" : "AM";
     if (hh > 12) {
       hh = hh - 12;

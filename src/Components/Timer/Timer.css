@@ -1,0 +1,51 @@
+.heading3 {
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-top: -30px;
+    font-family: fantasy;
+    font-weight: bold;
+    font-style: oblique;
+    justify-content: center;
+    user-select: none;
+}
+
+.btn1{
+    display: flex;
+    width: 90px;
+    height: 40px;
+    float: left;
+    margin: 30px;
+    border: 2px solid green;
+    font-size: 1.2em;
+    font-weight:bold;
+    font-family: fantasy;
+    border-radius: 10%;
+    justify-content: center;
+}
+
+.styl{
+    display: inline-flex;
+    margin: 30px 0;
+    width: auto;
+    height: 40px;
+}
+input{
+    justify-content: center;
+}
+
+#animateCircle.addAnimation2{
+  stroke-dasharray: 770;
+  stroke-dashoffset: -770;
+}
+
+#animateCircle.addAnimation{
+  stroke-dasharray: 770;
+  stroke-dashoffset: -770;
+  animation: animateCircle 60s linear infinite;
+  animation-play-state: running;
+}
+@keyframes animateCircle{
+  from{
+    stroke-dashoffset: 0;
+  }
+}
