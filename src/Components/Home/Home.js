@@ -8,10 +8,10 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="fluid-container section" >
+        <div className="fluid-container section col-lg-12" >
           <div className="content">
-            <h2 className="heading">Clock Menu Application</h2>
-            <p className="para col-md-8">
+            <h2 className="heading"><u>Clock Menu Application</u></h2>
+            <p className="para col-lg-8">
               A single screen Application with fabulous UI and with optimized
               Memory and Speed. It consists features like Clocking With
               Location, Stopwatch and Timer with new features.
@@ -27,6 +27,7 @@ class Home extends Component {
             src={Mbclock}
             className="mobimg"
             style={{ userDrag: "none", userSelect: "none" }}
+            alt='arbitary clock pic'
           />
           <svg
             className="wave"

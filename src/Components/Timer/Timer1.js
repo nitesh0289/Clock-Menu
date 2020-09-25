@@ -3,7 +3,7 @@ import "./Timer.css";
 import { Link } from "react-router-dom";
 
 function Timer() {
-  const [time, setTime] = useState({ hour: '', minute: '', second: '' });
+  const [time, setTime] = useState({ hour: '0', minute: '0', second: '0' });
   const hourHandler = (event) => {
     setTime({
       hour: event.target.value,

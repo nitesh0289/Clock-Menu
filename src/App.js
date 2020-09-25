@@ -7,8 +7,6 @@ import stopwatch from "./Components/Stopwatch/Stopwatch";
 import timer from "./Components/Timer/Timer1";
 import clocksys from "./Components/worldClock/Clocksys";
 import Timer2 from "./Components/Timer/Timer2";
-import Footer from "./Components/Home/Footer";
-import Card from "./Components/Home/Home2";
 
 function App() {
   return (

@@ -11,7 +11,7 @@ const Card = () => {
     <div>
     <div className="container d-flex justify-content-center mt-5">
       <div className="row">
-        <div className="col-md-6 col-lg-4">
+        <div className="col-md-6 col-lg-4 mt-5">
           <div className="card text-center">
             <div className="overflow">
               <img src={WorldMap} alt="WorldMap" className="card-img-top" />
@@ -32,7 +32,7 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <div className=" col-md-6 col-lg-4 ">
+        <div className=" col-md-6 col-lg-4 mt-5">
           <div className="card text-center">
             <div className="overflow">
               <img src={Stopwatch} alt="Stopwatch" className="card-img-top" />
@@ -40,8 +40,8 @@ const Card = () => {
             <div className="card-body text-dark">
               <h4 className="card-title">Stop-Watch</h4>
               <p className="card-text text-secondary">
-                Easy to use and accurate stopwatch with lap times and Alerts.
-                Optional split intervals.
+                Easy to use and accurate stopwatch with the awesome UI. It can start and stop
+                at any instant on users choice.
               </p>
               <React.Fragment>
                 <Link to="stopwatch">
@@ -53,7 +53,7 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-6 col-lg-4">
+        <div className="col-md-6 col-lg-4 mt-5">
           <div className="card text-center">
             <div className="overflow">
               <img src={Timer} alt="Timer" className="card-img-top" />
@@ -61,8 +61,8 @@ const Card = () => {
             <div className="card-body text-dark">
               <h4 className="card-title">Timer</h4>
               <p className="card-text text-secondary">
-                Create one or multiple timers and start them in any order. Set
-                an Alert Message Lovely UI.
+                Set the Hours, Minutes & seconds in the form and start and stop the timer.
+                It can also add extra 60s.
               </p>
               <React.Fragment>
                 <Link to="timer">

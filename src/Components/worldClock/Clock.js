@@ -29,14 +29,11 @@ class Clock extends Component {
     var hh = this.state.time.getUTCHours() + this.props.hr;
     var mm = this.state.time.getUTCMinutes() + this.props.mn;
     var ss = this.state.time.getUTCSeconds();
+    //console.log("1st")
     //console.log("hours:",hh, "minutes:", mm, "seconds:", ss);
     var mr = hh >= 12 ? "PM" : "AM";
     if (hh > 12) {
       hh = hh - 12;
-    }
-    if (ss < 0) {
-      mm = mm - 1;
-      ss = 60 + ss;
     }
     if (mm < 0) {
       hh = hh - 1;
@@ -45,6 +42,15 @@ class Clock extends Component {
     if (hh < 0) {
       hh = 12 + hh;
     }
+    if (mm > 60){
+      hh = hh + 1;
+      mm = mm - 60;
+    }
+    if (hh > 12) {
+      hh = hh - 12;
+    }
+    // console.log("2nd");
+    // console.log("hours:",hh, "minutes:", mm, "seconds:", ss);
     const hr = 180 + (hh * 30 + mm / 2);
     const mn = 180 + (mm * 6 + ss / 10);
     const sc = 180 + ss * 6;

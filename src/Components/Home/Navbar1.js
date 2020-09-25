@@ -13,16 +13,17 @@ const navli = {
   zIndex: "101",
 };
 const title = {
-  fontSize: "140%",
+  fontSize: "1.5em",
   fontFamily: "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif",
   fontWeight: "bold",
+  marginLeft: '1em !important',
 };
 class Navbar1 extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg" style={navli}>
-          <NavbarBrand className="text-danger" style={title} href="/">
+        <nav className="navbar navbar-expand-lg col-lg-12" style={navli}>
+          <NavbarBrand className="text-warning" style={title} href="/">
             Nitesh Kumar
           </NavbarBrand>
           <div className="spacer" />
@@ -56,10 +57,6 @@ class Navbar1 extends Component {
               <Link to="/timer" className="nav-link text-info">
                 <li className="nav-item">Timer</li>
               </Link>
-
-              {/* <Link to="/profile" className="btn btn-outline-warning">
-                <li className="nav-item">About-Me</li>
-              </Link> */}
             </ul>
           </div>
         </nav>

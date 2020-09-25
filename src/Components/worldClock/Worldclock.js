@@ -38,9 +38,9 @@ class Worldclock extends Component {
     var newdate= new Intl.DateTimeFormat('en-US', formatter).format(this.state.date)
     return (
       <div>
-      <div className="container d-flex justify-content-center ">
+      <div className="container d-flex justify-content-center col-lg-12">
         <div className="row">
-          <div className='heading1'>
+          <div className='heading1 col-lg-12'>
             --Countries--
           </div>
           <div className="col-md-6 col-lg-3 mt-5">

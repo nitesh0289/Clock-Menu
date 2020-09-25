@@ -6,7 +6,7 @@
     font-family: fantasy;
     font-weight: bold;
     font-style: oblique;
-    padding-left: 42%;
+    justify-content: center;
 }
 
 .container .row{

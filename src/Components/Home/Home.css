@@ -27,9 +27,9 @@
 }
 
 .para {
-  font: size 2rem;
-  color: #000;
-  font-weight: 200;
+  font-size: 1.2rem;
+  color: rgb(2, 2, 2);
+  font-weight:200;
   font-family: cursive;
 }
 

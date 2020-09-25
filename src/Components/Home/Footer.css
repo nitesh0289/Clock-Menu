@@ -1,32 +1,48 @@
 .fcontainer{
     display: flex;
     width: 100vw;
-    height: 35vh;
+    height: auto;
     justify-content: center;
     background: rgb(48, 49, 49);
-    border-radius: 2px;
 }
 
 .icons{
     display: flex;
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
+    margin: 1rem;
     cursor: pointer;
 }
 
 .fcontent{
     display: flex;
     width: 100vw;
-    height: 60px;
+    height: auto;
     justify-content: center;
     background: rgb(71, 71, 71);
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-family: fantasy;
     font-weight: 200;
-    color: rgb(27, 221, 114);
+    color: rgb(124, 212, 190);
+}
+
+.fcontent3{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background: rgb(48, 49, 49);
+}
+
+.content3{
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(203, 199, 207);
 }
