@@ -1,3 +1,7 @@
+About:
+A Clock_Menu Website with a good UI and have a features of World clock, Stopwatch and Timer.
+You can see some pics of website in Websitelook folder
+
 Want To Implement:
   1. Want to set the different location Date without an API.
   2. Want to show circular animation of timer on user input[Hour, Minute, Seconds] and animation should run only one time and end at 00:00:00:00 just like any other timer does.
