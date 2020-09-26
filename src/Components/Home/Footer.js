@@ -33,15 +33,17 @@ function Footer() {
           <strong> Github</strong>. And there are some things that i wanted to implement, but i can't, so try to think over
           it. You can get to know about it in<strong> "Read.me" </strong>.
           <br />{" "}
-          <h5
+          <span
             style={{
+              display: 'block',
               fontFamily: "fantasy",
               fontWeight: "bolder",
               color: "greenyellow",
+              fontSize: '1.2em',
             }}
           >
             Mail: niteshch200053@gmail.com
-          </h5>
+          </span>
         </p>
       </div>
       <div className="fcontent col-lg-12">

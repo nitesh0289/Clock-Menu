@@ -26,11 +26,34 @@ class Clock extends Component {
   };
 
   render() {
-    var hh = this.state.time.getUTCHours() + this.props.hr;
-    var mm = this.state.time.getUTCMinutes() + this.props.mn;
+    var hh1 = this.state.time.getUTCHours();
+    var mm1 = this.state.time.getUTCMinutes();
+    var hh = hh1 + this.props.hr;
+    var mm = mm1 + this.props.mn;
     var ss = this.state.time.getUTCSeconds();
-    //console.log("1st")
-    //console.log("hours:",hh, "minutes:", mm, "seconds:", ss);
+    //------------------------------
+    // for changing date
+    //------------------------------
+    // if(this.props.hr>0)
+    // {
+    //   if(hh < hh1-hh){
+    //     console.log(this.state.time.getUTCDate() + 1);
+    //   }
+    //   else{
+    //     console.log(this.state.time.getUTCDate());
+    //   }
+    // }
+    // if(this.props.hr<0)
+    // {
+    //   if(hh1 < hh-hh1){
+    //     console.log(this.state.time.getUTCDate() + 1);
+    //   }
+    //   else{
+    //     console.log(this.state.time.getUTCDate());
+    //   }
+    // }
+    // console.log("1st")
+    // console.log("hours:",hh, "minutes:", mm, "seconds:", ss);
     var mr = hh >= 12 ? "PM" : "AM";
     if (hh > 12) {
       hh = hh - 12;
@@ -42,7 +65,7 @@ class Clock extends Component {
     if (hh < 0) {
       hh = 12 + hh;
     }
-    if (mm > 60){
+    if (mm > 60) {
       hh = hh + 1;
       mm = mm - 60;
     }
@@ -81,7 +104,7 @@ class Clock extends Component {
               justifyContent: "center",
               alignItems: "center",
               minHeight: "500px",
-              minWidth: "350px"
+              minWidth: "350px",
             }}
           >
             <div className="clock">

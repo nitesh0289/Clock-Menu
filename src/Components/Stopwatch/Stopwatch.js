@@ -81,9 +81,9 @@ function Stopwatch() {
                 cy="125"
                 r="120"
                 stroke="#ff99e6"
-                stroke-width="10"
+                strokeWidth="10"
                 fill="none"
-                stroke-linecap="round"
+                strokeLinecap="round"
               />
               {/* <defs>
                 <linearGradient id="half">
@@ -99,10 +99,10 @@ function Stopwatch() {
                 cy="125"
                 r="120"
                 stroke="#cc0099"
-                stroke-width="10"
+                strokeWidth="10"
                 fill="none"
                 // fill="url(#half)"
-                stroke-linecap="round"
+                strokeLinecap="round"
               />
             </svg>
             <span>{time.h < 10 ? "0" + time.h : time.h}</span>:
@@ -128,7 +128,7 @@ function Stopwatch() {
         >
           <path
             fill="#0099ff"
-            fill-opacity="1"
+            fillOpacity="1"
             d="M0,224L48,224C96,224,192,224,288,229.3C384,235,480,245,576,245.3C672,245,768,235,864,234.7C960,235,1056,245,1152,256C1248,267,1344,277,1392,282.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
           ></path>
         </svg>
