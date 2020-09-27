@@ -1,6 +1,6 @@
 About:
-A Clock_Menu Website with a good UI and have a features of World clock, Stopwatch and Timer.
-You can see some pics of website in Websitelook folder
+A Single page React website with stopwatch, World clock and timer, implemented in excellent UI.
+You can see some pics of this website in websitelook folder.
 
 Want To Implement:
   1. Want to set the different location Date without an API.
