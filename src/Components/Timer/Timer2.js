@@ -94,8 +94,8 @@ class Timer2 extends Component {
 
   render() {
     return (
-      <div className=" container1 pt=5">
-        <div className="pt-5" />
+      <div className=" container1">
+        <div className="pt-4" />
         <div
           className="heading2 pt-5"
           data-aos="slide-left"

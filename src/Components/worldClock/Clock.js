@@ -128,7 +128,7 @@ class Clock extends Component {
             <div
               className="digiclock mt-4 mx-auto"
               data-aos="slide-left"
-              data-aos-offset="100"
+              data-aos-offset="20"
               style={{ backgroundColor: colors.light2, color: colors.dark1 }}
             >
               <h2 className="text-center" style={{ fontWeight: "600" }}>

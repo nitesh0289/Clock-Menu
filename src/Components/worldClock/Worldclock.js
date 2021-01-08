@@ -47,7 +47,7 @@ class Worldclock extends Component {
     return (
       <div>
         <div className="container col-lg-12 pb-5">
-          <div className="row ml-5 mr-5">
+          <div className="row ml-lg-5 mr-lg-5">
             <div
               className="heading1 col-lg-12 mt-3"
               data-aos="slide-left"

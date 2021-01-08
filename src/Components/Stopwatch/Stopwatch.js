@@ -84,9 +84,9 @@ function Stopwatch() {
   }, []);
 
   return (
-    <div className="container1 pt-5" style={{ backgroundColor: colors.light2 }}>
+    <div className="container1 " style={{ backgroundColor: colors.light2 }}>
       <div
-        className="heading2 pt-5"
+        className="heading2 pt-4"
         data-aos="slide-left"
         style={{ color: colors.primary2 }}
       >
