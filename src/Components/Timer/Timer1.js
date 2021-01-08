@@ -52,7 +52,7 @@ function Timer() {
             className="heading3"
             data-aos="fade-up"
             data-aos-duration="1500"
-            data-aos-offset="100"
+            data-aos-offset="50"
             style={{ color: colors.primary3 }}
           >
             Set Clock Time
@@ -62,7 +62,7 @@ function Timer() {
               className="tags"
               data-aos="fade-up"
               data-aos-duration="1600"
-              data-aos-offset="100"
+              data-aos-offset="50"
               style={{ backgroundColor: colors.light2 }}
             >
               Hours
@@ -71,7 +71,7 @@ function Timer() {
               className="styl"
               data-aos="fade-up"
               data-aos-duration="1600"
-              data-aos-offset="100"
+              data-aos-offset="20"
             >
               <input
                 type="text"
@@ -85,7 +85,7 @@ function Timer() {
               className="tags"
               data-aos="fade-up"
               data-aos-duration="1700"
-              data-aos-offset="100"
+              data-aos-offset="20"
               style={{ backgroundColor: colors.light2 }}
             >
               Minutes
@@ -94,7 +94,7 @@ function Timer() {
               className="styl"
               data-aos="fade-up"
               data-aos-duration="1700"
-              data-aos-offset="100"
+              data-aos-offset="20"
             >
               <input
                 type="text"
@@ -108,7 +108,7 @@ function Timer() {
               className="tags"
               data-aos="fade-up"
               data-aos-duration="1800"
-              data-aos-offset="100"
+              data-aos-offset="20"
               style={{ backgroundColor: colors.light2 }}
             >
               Seconds
@@ -117,7 +117,7 @@ function Timer() {
               className="styl"
               data-aos="fade-up"
               data-aos-duration="1800"
-              data-aos-offset="100"
+              data-aos-offset="20"
             >
               <input
                 type="text"
@@ -136,9 +136,6 @@ function Timer() {
                 tm1: time1,
               }}
               className="btn"
-              data-aos="fade-up"
-              data-aos-offset="100"
-              data-aos-duration="1600"
               style={{
                 color: colors.light2,
                 backgroundColor: colors.tertiary1,

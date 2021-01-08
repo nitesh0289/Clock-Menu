@@ -11,7 +11,7 @@
 
 .screen {
   display: flex;
-  min-height: 520px;
+  height: auto;
   min-width: 350px;
   padding: 15px;
   box-shadow: 0 5px 25px #0000004a;

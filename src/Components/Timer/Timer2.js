@@ -160,7 +160,7 @@ class Timer2 extends Component {
                 className="btn"
                 onClick={this.add}
                 data-aos="fade-up"
-                data-aos-offset="100"
+                data-aos-offset="20"
                 data-aos-duration="1600"
                 style={{
                   color: colors.light2,

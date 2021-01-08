@@ -143,7 +143,7 @@ function Stopwatch() {
             <button
               onClick={resetfn}
               data-aos="zoom-in"
-              data-aos-offset="100"
+              data-aos-offset="20"
               data-aos-duration="1800"
               style={{
                 color: colors.light2,

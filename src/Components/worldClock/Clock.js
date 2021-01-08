@@ -102,7 +102,7 @@ class Clock extends Component {
             {this.props.city || "Universal Standard Time"}
           </div>
           <div
-            className="screen mt-3"
+            className="screen mt-3 pb-5"
             style={{
               background: "url(" + this.state.bg + ")",
               backgroundPosition: "center",
@@ -112,7 +112,7 @@ class Clock extends Component {
             <div
               className="clock"
               data-aos="slide-up"
-              data-aos-offset="100"
+              data-aos-offset="20"
               style={{ border: "10px solid" + colors.primary3 }}
             >
               <div className="hour">

@@ -45,7 +45,7 @@ class Home extends Component {
                       <div className="carousel-inner px-md-5 pb-md-4 pt-md-2">
                         <div className="carousel-item active">
                           <div className="media">
-                            <div className="media-body ml-3" data-aos="zoom-in">
+                            <div className="media-body ml-3">
                               <blockquote
                                 className="blockquote border-2 p-0"
                                 style={{
