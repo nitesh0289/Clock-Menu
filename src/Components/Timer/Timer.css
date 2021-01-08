@@ -1,0 +1,70 @@
+.heading3 {
+  font-size: 1.6rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tags {
+  display: flex;
+  width: 90px;
+  height: 40px;
+  float: left;
+  margin: 30px;
+  border-bottom: 5px solid rgb(148, 215, 235);
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.btn {
+  font-size: 1.2em;
+  font-family: Open-sans, serif;
+  font-weight: 500 !important;
+  background-blend-mode: overlay;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  font-size: 1.15rem;
+  transform: scale(1.03);
+}
+
+.styl {
+  display: inline-flex;
+  margin: 30px 0;
+  width: auto;
+  height: 40px;
+  border-bottom: 5px solid rgb(148, 215, 235);
+  border-radius: 10px;
+}
+input {
+  font-size: 1.2rem;
+  font-family: Open-Sans, sans-serif;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#animateCircle.addAnimation2 {
+  stroke-dasharray: 770;
+  stroke-dashoffset: -770;
+}
+
+#animateCircle.addAnimation {
+  stroke-dasharray: 770;
+  stroke-dashoffset: -770;
+  animation: animateCircle linear infinite;
+  animation-play-state: running;
+}
+@keyframes animateCircle {
+  from {
+    stroke-dashoffset: 0;
+  }
+}

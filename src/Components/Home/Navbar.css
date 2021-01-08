@@ -1,0 +1,43 @@
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.nav-title {
+  margin-left: 5%;
+}
+
+.nav-item {
+  justify-content: center;
+}
+
+.spacer {
+  flex: 30;
+}
+
+li {
+  display: flex;
+  font-size: 120%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  font-weight: 100;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  opacity: 0.9;
+  border-left: 2px solid #210246;
+}
+
+.title {
+  font-size: 1.8em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}

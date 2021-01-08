@@ -1,0 +1,86 @@
+.heading1 {
+  width: 100vw;
+  font-size: 2.2rem;
+  font-family: "Eczar", serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn {
+  font-size: 1.2em;
+  font-family: Open-sans, serif;
+  font-weight: 500 !important;
+  background-blend-mode: overlay;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+.card-out {
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.container .row {
+  padding-top: 4rem !important;
+}
+
+.card {
+  border: none;
+}
+
+.card:hover {
+  box-shadow: 15px 10px 20px 1px rgba(0, 0, 0, 0.3) !important;
+  border: none;
+  transform: scale(1.02);
+  background-color: #cfe6fd;
+}
+
+.card-body {
+  height: auto;
+  padding: 2rem 0 !important ;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-date {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.card-title {
+  font-weight: bolder;
+  font-family: Open-sans, serif;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.8);
+}
+@media screen and (max-width: 960px) {
+  .card-img-top {
+    height: 40vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .card-img-top {
+    height: 50vw;
+  }
+}
