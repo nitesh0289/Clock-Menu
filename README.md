@@ -80,11 +80,3 @@ You will also see any lint errors in the console.<br/>
 
 ### Timer
 ![clock6](https://user-images.githubusercontent.com/58008904/104057430-2944ce80-5218-11eb-95ba-f0ae0dab2a33.png)
-
-
-### Extended Mode
-![calc2](https://user-images.githubusercontent.com/58008904/103453230-dc379880-4cfd-11eb-82c0-1eb514f1d0fb.png)
-
-### Calculation E.g
-![calc3](https://user-images.githubusercontent.com/58008904/103453238-f6717680-4cfd-11eb-99f9-efae442d8794.png)
-
