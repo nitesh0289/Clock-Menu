@@ -33,31 +33,30 @@ https://youthful-poitras-773997.netlify.app/
 - Default starting time of timer is **5 minutes**
 - Display messages on use different function in **Stopwatch and Timer**
 - Excellent User Interface
-- Responsive look for every platform
+- Responsive look to every platform
   
 ## Installation
-Follow these two step to run this Project:
+Follow these two step to run this Project:<br/>
 1. Clone the Repository<br />
   ```
-  $ https://github.com/A-phenomenal1/Advance-Calculator.git
+  $ https://github.com/A-phenomenal1/Clock-Menu.git
   ```
-  In the project directory you can run
+In the project directory<br/>
 2. Download required npm or yarn modules<br />
   ```
-    npm i
+   npm i
   ```
-  **OR**
-  ```
-    npm install
-  ```
-3. Runs the app in the development mode.
-    Download required npm or yarn modules<br />
-  ```
-    npm start
-  ```
+ **OR**
+ ```
+  npm install
+ ```
+ 3. Runs the app in the development mode.<br/>
+    ```
+     npm start
+    ```
 4. Open http://localhost:3000 to view it in the browser.<br/>
-The page will reload if you make edits.<br/>
-You will also see any lint errors in the console.<br/>
+    The page will reload if you make edits.<br/>
+    You will also see any lint errors in the console.<br/>
 
 ## Functionalities
 
