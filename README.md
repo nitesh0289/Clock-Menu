@@ -3,7 +3,7 @@ An amazing Clock Menu application that shows current time of some famous cities 
 Gives you access to a stopwatch and timer.<br/><br/>
 This app is React based Web Application.<br/><br />
 Link to hosted Application: <br/><br />
-https://youthful-poitras-773997.netlify.app/
+https://clock-menu-a-phenomenal1.netlify.app/
 
 ## Technology Used
 - **React.js** <br />
